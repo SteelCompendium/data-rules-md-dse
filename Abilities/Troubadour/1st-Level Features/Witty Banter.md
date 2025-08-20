@@ -1,0 +1,71 @@
+---
+action_type: Main action
+class: troubadour
+distance: Melee 1 or ranged 5
+feature_type: ability
+file_basename: Witty Banter
+file_dpath: Troubadour/1st-Level Features
+flavor: A lyrical (and physical) jab insults an enemy and inspires an ally.
+item_id: witty-banter
+item_index: '14'
+item_name: Witty Banter
+keywords:
+- Magic
+- Melee
+- Ranged
+- Strike
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:witty-banter
+scdc:
+- 1.1.1:13.2.3.1:14
+source: mcdm.heroes.v1
+target: One creature
+type: feature/ability/troubadour/1st-level-feature
+---
+
+```ds-ability
+name: Witty Banter
+flavor: A lyrical (and physical) jab insults an enemy and inspires an ally.
+keywords:
+  - Magic
+  - Melee
+  - Ranged
+  - Strike
+type: Main action
+distance: Melee 1 or ranged 5
+target: One creature
+metadata:
+  action_type: Main action
+  class: troubadour
+  distance: Melee 1 or ranged 5
+  feature_type: ability
+  file_basename: Witty Banter
+  file_dpath: Troubadour/1st-Level Features
+  flavor: A lyrical (and physical) jab insults an enemy and inspires an ally.
+  item_id: witty-banter
+  item_index: "14"
+  item_name: Witty Banter
+  keywords:
+    - Magic
+    - Melee
+    - Ranged
+    - Strike
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:witty-banter
+  scdc:
+    - 1.1.1:13.2.3.1:14
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/troubadour/1st-level-feature
+effects:
+  - roll: Power Roll + Presence
+    t1: 4 + P psychic damage
+    t2: 5 + P psychic damage
+    t3: 7 + P psychic damage
+  - effect: One ally within 10 squares of you can end one effect on them that is
+      ended by a saving throw or that ends at the end of their turn.
+  - effect: The chosen ally can spend a Recovery.
+    cost: Spend 1 Drama
+```

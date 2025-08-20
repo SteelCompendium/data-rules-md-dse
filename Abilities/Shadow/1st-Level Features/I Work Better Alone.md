@@ -1,0 +1,69 @@
+---
+action_type: Main action
+class: shadow
+distance: Melee 1 or ranged 5
+feature_type: ability
+file_basename: I Work Better Alone
+file_dpath: Shadow/1st-Level Features
+flavor: '"It''s better, just you and me. Isn''t it?"'
+item_id: i-work-better-alone
+item_index: 09
+item_name: I Work Better Alone
+keywords:
+- Melee
+- Ranged
+- Strike
+- Weapon
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:i-work-better-alone
+scdc:
+- 1.1.1:13.2.2.1:09
+source: mcdm.heroes.v1
+target: One creature
+type: feature/ability/shadow/1st-level-feature
+---
+
+```ds-ability
+name: I Work Better Alone
+flavor: "\"It's better, just you and me. Isn't it?\""
+keywords:
+  - Melee
+  - Ranged
+  - Strike
+  - Weapon
+type: Main action
+distance: Melee 1 or ranged 5
+target: One creature
+metadata:
+  action_type: Main action
+  class: shadow
+  distance: Melee 1 or ranged 5
+  feature_type: ability
+  file_basename: I Work Better Alone
+  file_dpath: Shadow/1st-Level Features
+  flavor: "\"It's better, just you and me. Isn't it?\""
+  item_id: i-work-better-alone
+  item_index: 9
+  item_name: I Work Better Alone
+  keywords:
+    - Melee
+    - Ranged
+    - Strike
+    - Weapon
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:i-work-better-alone
+  scdc:
+    - 1.1.1:13.2.2.1:09
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/shadow/1st-level-feature
+effects:
+  - roll: Power Roll + Agility
+    t1: 3 + A damage
+    t2: 6 + A damage
+    t3: 9 + A damage
+  - effect: If the target has none of your allies adjacent to them, you gain 1 surge
+      before making the power roll.
+```

@@ -1,0 +1,73 @@
+---
+action_type: Main action
+class: censor
+cost: 9 Wrath
+cost_amount: 9
+cost_resource: Wrath
+distance: Melee 1
+feature_type: ability
+file_basename: Righteous Judgment
+file_dpath: Censor/5th-Level Features
+flavor: You amplify the power of your judgment.
+item_id: righteous-judgment-9-wrath
+item_index: '01'
+item_name: Righteous Judgment (9 Wrath)
+keywords:
+- Melee
+- Strike
+- Weapon
+level: 5
+scc:
+- mcdm.heroes.v1:feature.ability.censor.5th-level-feature:righteous-judgment-9-wrath
+scdc:
+- 1.1.1:13.2.7.4:01
+source: mcdm.heroes.v1
+target: One creature
+type: feature/ability/censor/5th-level-feature
+---
+
+```ds-ability
+name: Righteous Judgment
+cost: 9 Wrath
+flavor: You amplify the power of your judgment.
+keywords:
+  - Melee
+  - Strike
+  - Weapon
+type: Main action
+distance: Melee 1
+target: One creature
+metadata:
+  action_type: Main action
+  class: censor
+  cost: 9 Wrath
+  cost_amount: 9
+  cost_resource: Wrath
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Righteous Judgment
+  file_dpath: Censor/5th-Level Features
+  flavor: You amplify the power of your judgment.
+  item_id: righteous-judgment-9-wrath
+  item_index: "01"
+  item_name: Righteous Judgment (9 Wrath)
+  keywords:
+    - Melee
+    - Strike
+    - Weapon
+  level: 5
+  scc:
+    - mcdm.heroes.v1:feature.ability.censor.5th-level-feature:righteous-judgment-9-wrath
+  scdc:
+    - 1.1.1:13.2.7.4:01
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/censor/5th-level-feature
+effects:
+  - roll: Power Roll + Might
+    t1: 10 + M damage
+    t2: 14 + M damage
+    t3: 20 + M damage
+  - effect: Until the end of the encounter, whenever any ally deals damage to a
+      target judged by you, that ally gains 1 surge.
+```

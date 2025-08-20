@@ -1,0 +1,76 @@
+---
+action_type: Main action
+class: censor
+cost: 3 Wrath
+cost_amount: 3
+cost_resource: Wrath
+distance: Melee 1
+feature_type: ability
+file_basename: The Gods Punish and Defend
+file_dpath: Censor/1st-Level Features
+flavor: You channel holy energy to smite a foe and heal an ally.
+item_id: the-gods-punish-and-defend-3-wrath
+item_index: '11'
+item_name: The Gods Punish and Defend (3 Wrath)
+keywords:
+- Magic
+- Melee
+- Strike
+- Weapon
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.censor.1st-level-feature:the-gods-punish-and-defend-3-wrath
+scdc:
+- 1.1.1:13.2.7.1:11
+source: mcdm.heroes.v1
+target: One creature or object
+type: feature/ability/censor/1st-level-feature
+---
+
+```ds-ability
+name: The Gods Punish and Defend
+cost: 3 Wrath
+flavor: You channel holy energy to smite a foe and heal an ally.
+keywords:
+  - Magic
+  - Melee
+  - Strike
+  - Weapon
+type: Main action
+distance: Melee 1
+target: One creature or object
+metadata:
+  action_type: Main action
+  class: censor
+  cost: 3 Wrath
+  cost_amount: 3
+  cost_resource: Wrath
+  distance: Melee 1
+  feature_type: ability
+  file_basename: The Gods Punish and Defend
+  file_dpath: Censor/1st-Level Features
+  flavor: You channel holy energy to smite a foe and heal an ally.
+  item_id: the-gods-punish-and-defend-3-wrath
+  item_index: "11"
+  item_name: The Gods Punish and Defend (3 Wrath)
+  keywords:
+    - Magic
+    - Melee
+    - Strike
+    - Weapon
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:the-gods-punish-and-defend-3-wrath
+  scdc:
+    - 1.1.1:13.2.7.1:11
+  source: mcdm.heroes.v1
+  target: One creature or object
+  type: feature/ability/censor/1st-level-feature
+effects:
+  - roll: Power Roll + Might
+    t1: 5 + M holy damage
+    t2: 8 + M holy damage
+    t3: 11 + M holy damage
+  - effect: You can spend a Recovery to allow yourself or one ally within 10 squares
+      to regain Stamina equal to your recovery value.
+```

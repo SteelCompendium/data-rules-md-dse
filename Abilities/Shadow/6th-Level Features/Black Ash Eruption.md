@@ -1,0 +1,77 @@
+---
+action_type: Main action
+class: shadow
+cost: 9 Insight
+cost_amount: 9
+cost_resource: Insight
+distance: Melee 1
+feature_type: ability
+file_basename: Black Ash Eruption
+file_dpath: Shadow/6th-Level Features
+flavor: Your attack produces a cloud of black ash that launches an enemy into the
+  air.
+item_id: black-ash-eruption-9-insight
+item_index: '01'
+item_name: Black Ash Eruption (9 Insight)
+keywords:
+- Magic
+- Melee
+- Strike
+- Weapon
+level: 6
+scc:
+- mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:black-ash-eruption-9-insight
+scdc:
+- 1.1.1:13.2.2.3:01
+source: mcdm.heroes.v1
+target: One creature
+type: feature/ability/shadow/6th-level-feature
+---
+
+```ds-ability
+name: Black Ash Eruption
+cost: 9 Insight
+flavor: Your attack produces a cloud of black ash that launches an enemy into the air.
+keywords:
+  - Magic
+  - Melee
+  - Strike
+  - Weapon
+type: Main action
+distance: Melee 1
+target: One creature
+metadata:
+  action_type: Main action
+  class: shadow
+  cost: 9 Insight
+  cost_amount: 9
+  cost_resource: Insight
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Black Ash Eruption
+  file_dpath: Shadow/6th-Level Features
+  flavor: Your attack produces a cloud of black ash that launches an enemy into
+    the air.
+  item_id: black-ash-eruption-9-insight
+  item_index: "01"
+  item_name: Black Ash Eruption (9 Insight)
+  keywords:
+    - Magic
+    - Melee
+    - Strike
+    - Weapon
+  level: 6
+  scc:
+    - mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:black-ash-eruption-9-insight
+  scdc:
+    - 1.1.1:13.2.2.3:01
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/shadow/6th-level-feature
+effects:
+  - roll: Power Roll + Agility
+    t1: 3 + A damage; vertical push 5
+    t2: 6 + A damage; vertical push 10
+    t3: 9 + A damage; vertical push 15
+  - effect: A creature force moved by this ability must be moved straight upward.
+```

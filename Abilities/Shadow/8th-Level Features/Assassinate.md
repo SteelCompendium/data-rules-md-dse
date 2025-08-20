@@ -1,0 +1,73 @@
+---
+action_type: Main action
+class: shadow
+cost: 11 Insight
+cost_amount: 11
+cost_resource: Insight
+distance: Melee 1
+feature_type: ability
+file_basename: Assassinate
+file_dpath: Shadow/8th-Level Features
+flavor: A practiced attack will instantly kill an already weakened foe.
+item_id: assassinate-11-insight
+item_index: '04'
+item_name: Assassinate (11 Insight)
+keywords:
+- Melee
+- Strike
+- Weapon
+level: 8
+scc:
+- mcdm.heroes.v1:feature.ability.shadow.8th-level-feature:assassinate-11-insight
+scdc:
+- 1.1.1:13.2.2.2:04
+source: mcdm.heroes.v1
+target: One creature or object
+type: feature/ability/shadow/8th-level-feature
+---
+
+```ds-ability
+name: Assassinate
+cost: 11 Insight
+flavor: A practiced attack will instantly kill an already weakened foe.
+keywords:
+  - Melee
+  - Strike
+  - Weapon
+type: Main action
+distance: Melee 1
+target: One creature or object
+metadata:
+  action_type: Main action
+  class: shadow
+  cost: 11 Insight
+  cost_amount: 11
+  cost_resource: Insight
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Assassinate
+  file_dpath: Shadow/8th-Level Features
+  flavor: A practiced attack will instantly kill an already weakened foe.
+  item_id: assassinate-11-insight
+  item_index: "04"
+  item_name: Assassinate (11 Insight)
+  keywords:
+    - Melee
+    - Strike
+    - Weapon
+  level: 8
+  scc:
+    - mcdm.heroes.v1:feature.ability.shadow.8th-level-feature:assassinate-11-insight
+  scdc:
+    - 1.1.1:13.2.2.2:04
+  source: mcdm.heroes.v1
+  target: One creature or object
+  type: feature/ability/shadow/8th-level-feature
+effects:
+  - roll: Power Roll + Agility
+    t1: 12 + A damage
+    t2: 18 + A damage
+    t3: 24 + A damage
+  - effect: A target who is not a minion, leader, or solo creature and who is winded
+      after taking this damage is reduced to 0 Stamina.
+```

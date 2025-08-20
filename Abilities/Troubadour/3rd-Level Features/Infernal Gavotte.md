@@ -1,0 +1,75 @@
+---
+action_type: Main action
+class: troubadour
+cost: 7 Drama
+cost_amount: 7
+cost_resource: Drama
+distance: 3 burst
+feature_type: ability
+file_basename: Infernal Gavotte
+file_dpath: Troubadour/3rd-Level Features
+flavor: A spicy performance lights a fire under your allies' feet.
+item_id: infernal-gavotte-7-drama
+item_index: '03'
+item_name: Infernal Gavotte (7 Drama)
+keywords:
+- Area
+- Magic
+- Melee
+- Weapon
+level: 3
+scc:
+- mcdm.heroes.v1:feature.ability.troubadour.3rd-level-feature:infernal-gavotte-7-drama
+scdc:
+- 1.1.1:13.2.3.6:03
+source: mcdm.heroes.v1
+target: Each enemy in the area
+type: feature/ability/troubadour/3rd-level-feature
+---
+
+```ds-ability
+name: Infernal Gavotte
+cost: 7 Drama
+flavor: A spicy performance lights a fire under your allies' feet.
+keywords:
+  - Area
+  - Magic
+  - Melee
+  - Weapon
+type: Main action
+distance: 3 burst
+target: Each enemy in the area
+metadata:
+  action_type: Main action
+  class: troubadour
+  cost: 7 Drama
+  cost_amount: 7
+  cost_resource: Drama
+  distance: 3 burst
+  feature_type: ability
+  file_basename: Infernal Gavotte
+  file_dpath: Troubadour/3rd-Level Features
+  flavor: A spicy performance lights a fire under your allies' feet.
+  item_id: infernal-gavotte-7-drama
+  item_index: "03"
+  item_name: Infernal Gavotte (7 Drama)
+  keywords:
+    - Area
+    - Magic
+    - Melee
+    - Weapon
+  level: 3
+  scc:
+    - mcdm.heroes.v1:feature.ability.troubadour.3rd-level-feature:infernal-gavotte-7-drama
+  scdc:
+    - 1.1.1:13.2.3.6:03
+  source: mcdm.heroes.v1
+  target: Each enemy in the area
+  type: feature/ability/troubadour/3rd-level-feature
+effects:
+  - roll: Power Roll + Presence
+    t1: 5 fire damage; A < WEAK, weakened (save ends)
+    t2: 7 fire damage; A < AVERAGE, weakened (save ends)
+    t3: 10 fire damage; A < STRONG, weakened (save ends)
+  - effect: Each ally in the area can shift up to 2 squares.
+```

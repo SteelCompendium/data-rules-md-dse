@@ -1,0 +1,71 @@
+---
+action_type: Main action
+class: shadow
+cost: 5 Insight
+cost_amount: 5
+cost_resource: Insight
+distance: 3 cube within 10
+feature_type: ability
+file_basename: Stink Bomb
+file_dpath: Shadow/2nd-Level Features
+flavor: Putrid yellow gas explodes from a bomb you toss.
+item_id: stink-bomb-5-insight
+item_index: '06'
+item_name: Stink Bomb (5 Insight)
+keywords:
+- Area
+- Ranged
+level: 2
+scc:
+- mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:stink-bomb-5-insight
+scdc:
+- 1.1.1:13.2.2.5:06
+source: mcdm.heroes.v1
+target: Each creature in the area
+type: feature/ability/shadow/2nd-level-feature
+---
+
+```ds-ability
+name: Stink Bomb
+cost: 5 Insight
+flavor: Putrid yellow gas explodes from a bomb you toss.
+keywords:
+  - Area
+  - Ranged
+type: Main action
+distance: 3 cube within 10
+target: Each creature in the area
+metadata:
+  action_type: Main action
+  class: shadow
+  cost: 5 Insight
+  cost_amount: 5
+  cost_resource: Insight
+  distance: 3 cube within 10
+  feature_type: ability
+  file_basename: Stink Bomb
+  file_dpath: Shadow/2nd-Level Features
+  flavor: Putrid yellow gas explodes from a bomb you toss.
+  item_id: stink-bomb-5-insight
+  item_index: "06"
+  item_name: Stink Bomb (5 Insight)
+  keywords:
+    - Area
+    - Ranged
+  level: 2
+  scc:
+    - mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:stink-bomb-5-insight
+  scdc:
+    - 1.1.1:13.2.2.5:06
+  source: mcdm.heroes.v1
+  target: Each creature in the area
+  type: feature/ability/shadow/2nd-level-feature
+effects:
+  - roll: Power Roll + Agility
+    t1: 2 poison damage
+    t2: 5 poison damage
+    t3: 7 poison damage
+  - effect: The gas remains in the area until the end of the encounter. Any creature
+      who starts their turn in the area and has M < AVERAGE is weakened (save
+      ends).
+```

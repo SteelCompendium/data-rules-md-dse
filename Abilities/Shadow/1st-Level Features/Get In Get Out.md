@@ -1,0 +1,71 @@
+---
+action_type: Main action
+class: shadow
+cost: 3 Insight
+cost_amount: 3
+cost_resource: Insight
+distance: Melee 1
+feature_type: ability
+file_basename: Get In Get Out
+file_dpath: Shadow/1st-Level Features
+flavor: Move unexpectedly, strike fast, and be gone!
+item_id: get-in-get-out-3-insight
+item_index: '10'
+item_name: Get In Get Out (3 Insight)
+keywords:
+- Melee
+- Strike
+- Weapon
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:get-in-get-out-3-insight
+scdc:
+- 1.1.1:13.2.2.1:10
+source: mcdm.heroes.v1
+target: One creature
+type: feature/ability/shadow/1st-level-feature
+---
+
+```ds-ability
+name: Get In Get Out
+cost: 3 Insight
+flavor: Move unexpectedly, strike fast, and be gone!
+keywords:
+  - Melee
+  - Strike
+  - Weapon
+type: Main action
+distance: Melee 1
+target: One creature
+metadata:
+  action_type: Main action
+  class: shadow
+  cost: 3 Insight
+  cost_amount: 3
+  cost_resource: Insight
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Get In Get Out
+  file_dpath: Shadow/1st-Level Features
+  flavor: Move unexpectedly, strike fast, and be gone!
+  item_id: get-in-get-out-3-insight
+  item_index: "10"
+  item_name: Get In Get Out (3 Insight)
+  keywords:
+    - Melee
+    - Strike
+    - Weapon
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:get-in-get-out-3-insight
+  scdc:
+    - 1.1.1:13.2.2.1:10
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/shadow/1st-level-feature
+effects:
+  - roll: Power Roll + Agility
+    t1: 5 + A damage
+    t2: 8 + A damage
+    t3: 11 + A damage
+```

@@ -1,0 +1,66 @@
+---
+action_type: Main action
+class: fury
+distance: Melee 1
+feature_type: ability
+file_basename: Hit and Run
+file_dpath: Fury/1st-Level Features
+flavor: Staying in constant motion helps you slip out of reach after a brutal assault.
+item_id: hit-and-run
+item_index: '07'
+item_name: Hit and Run
+keywords:
+- Melee
+- Strike
+- Weapon
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.fury.1st-level-feature:hit-and-run
+scdc:
+- 1.1.1:13.2.5.1:07
+source: mcdm.heroes.v1
+target: One creature or object
+type: feature/ability/fury/1st-level-feature
+---
+
+```ds-ability
+name: Hit and Run
+flavor: Staying in constant motion helps you slip out of reach after a brutal assault.
+keywords:
+  - Melee
+  - Strike
+  - Weapon
+type: Main action
+distance: Melee 1
+target: One creature or object
+metadata:
+  action_type: Main action
+  class: fury
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Hit and Run
+  file_dpath: Fury/1st-Level Features
+  flavor: Staying in constant motion helps you slip out of reach after a brutal
+    assault.
+  item_id: hit-and-run
+  item_index: "07"
+  item_name: Hit and Run
+  keywords:
+    - Melee
+    - Strike
+    - Weapon
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:hit-and-run
+  scdc:
+    - 1.1.1:13.2.5.1:07
+  source: mcdm.heroes.v1
+  target: One creature or object
+  type: feature/ability/fury/1st-level-feature
+effects:
+  - roll: Power Roll + Might
+    t1: 2 + M damage
+    t2: 5 + M damage
+    t3: 7 + M damage; A < STRONG, slowed (save ends)
+  - effect: You can shift 1 square.
+```

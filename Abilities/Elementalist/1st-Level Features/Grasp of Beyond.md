@@ -1,0 +1,68 @@
+---
+action_type: Main action
+class: elementalist
+distance: Melee 1
+feature_type: ability
+file_basename: Grasp of Beyond
+file_dpath: Elementalist/1st-Level Features
+flavor: You absorb the life energy of another creature and use it to teleport.
+item_id: grasp-of-beyond
+item_index: '19'
+item_name: Grasp of Beyond
+keywords:
+- Magic
+- Melee
+- Strike
+- Void
+level: 1
+scc:
+- mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:grasp-of-beyond
+scdc:
+- 1.1.1:13.2.9.1:19
+source: mcdm.heroes.v1
+target: One creature
+type: feature/ability/elementalist/1st-level-feature
+---
+
+```ds-ability
+name: Grasp of Beyond
+flavor: You absorb the life energy of another creature and use it to teleport.
+keywords:
+  - Magic
+  - Melee
+  - Strike
+  - Void
+type: Main action
+distance: Melee 1
+target: One creature
+metadata:
+  action_type: Main action
+  class: elementalist
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Grasp of Beyond
+  file_dpath: Elementalist/1st-Level Features
+  flavor: You absorb the life energy of another creature and use it to teleport.
+  item_id: grasp-of-beyond
+  item_index: "19"
+  item_name: Grasp of Beyond
+  keywords:
+    - Magic
+    - Melee
+    - Strike
+    - Void
+  level: 1
+  scc:
+    - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:grasp-of-beyond
+  scdc:
+    - 1.1.1:13.2.9.1:19
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/elementalist/1st-level-feature
+effects:
+  - roll: Power Roll + Reason
+    t1: 3 + R corruption damage
+    t2: 6 + R corruption damage
+    t3: 9 + R corruption damage
+  - effect: You can teleport up to a number of squares equal to your Reason score.
+```

@@ -1,0 +1,74 @@
+---
+action_type: Main action
+class: censor
+cost: 11 Wrath
+cost_amount: 11
+cost_resource: Wrath
+distance: Melee 1
+feature_type: ability
+file_basename: Pillar of Holy Fire
+file_dpath: Censor/8th-Level Features
+flavor: Your enemy's guilt fuels a holy flame that burns your foes.
+item_id: pillar-of-holy-fire-11-wrath
+item_index: '01'
+item_name: Pillar of Holy Fire (11 Wrath)
+keywords:
+- Melee
+- Strike
+- Weapon
+level: 8
+scc:
+- mcdm.heroes.v1:feature.ability.censor.8th-level-feature:pillar-of-holy-fire-11-wrath
+scdc:
+- 1.1.1:13.2.7.2:01
+source: mcdm.heroes.v1
+target: One creature
+type: feature/ability/censor/8th-level-feature
+---
+
+```ds-ability
+name: Pillar of Holy Fire
+cost: 11 Wrath
+flavor: Your enemy's guilt fuels a holy flame that burns your foes.
+keywords:
+  - Melee
+  - Strike
+  - Weapon
+type: Main action
+distance: Melee 1
+target: One creature
+metadata:
+  action_type: Main action
+  class: censor
+  cost: 11 Wrath
+  cost_amount: 11
+  cost_resource: Wrath
+  distance: Melee 1
+  feature_type: ability
+  file_basename: Pillar of Holy Fire
+  file_dpath: Censor/8th-Level Features
+  flavor: Your enemy's guilt fuels a holy flame that burns your foes.
+  item_id: pillar-of-holy-fire-11-wrath
+  item_index: "01"
+  item_name: Pillar of Holy Fire (11 Wrath)
+  keywords:
+    - Melee
+    - Strike
+    - Weapon
+  level: 8
+  scc:
+    - mcdm.heroes.v1:feature.ability.censor.8th-level-feature:pillar-of-holy-fire-11-wrath
+  scdc:
+    - 1.1.1:13.2.7.2:01
+  source: mcdm.heroes.v1
+  target: One creature
+  type: feature/ability/censor/8th-level-feature
+effects:
+  - roll: Power Roll + Might
+    t1: 9 + M damage; I < WEAK, dazed (save ends)
+    t2: 13 + M damage; I < AVERAGE, dazed (save ends)
+    t3: 18 + M damage; I < STRONG, dazed (save ends)
+  - effect: At the end of each of your turns, a target dazed this way deals holy
+      damage equal to twice your Presence score to each enemy within 2 squares
+      of them.
+```
